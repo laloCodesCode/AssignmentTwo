@@ -18,10 +18,16 @@ public class WeatherAPI_Controller {
     //City name
     Map<String, weatherData> cityNamesBase = new HashMap<>();
 
+
     //Hello, world! for making sure the API works.
     @GetMapping("/Hello")
     public String helloWorld(){
         return "Hello,World!";
+    }
+
+    @GetMapping("/Greensboro")
+    public Object getCityName(){
+        return "Greeensboro,NC";
     }
 
 
