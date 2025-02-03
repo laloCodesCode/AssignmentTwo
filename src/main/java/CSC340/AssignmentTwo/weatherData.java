@@ -1,6 +1,14 @@
 package CSC340.AssignmentTwo;
 
+
+
+
+
 public class weatherData {
+
+    /**
+     * Data Declarion block
+     */
     private String cityName;
     private String dayOfTheWeek;
     private double temprature;
@@ -10,6 +18,10 @@ public class weatherData {
     private int windSpeed;
 
 
+    /**
+     *
+     * Argumented constructor that initalizes data.
+     */
     public weatherData(String cityName,String dayOfTheWeek, double temprature, double highTemp, double lowTemp,
     int windSpeed, int realFeel){
         this.cityName = cityName;
