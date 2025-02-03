@@ -31,8 +31,32 @@ public class weatherData {
         this.lowTemp = lowTemp;
         this.windSpeed = windSpeed;
         this.realFeel = realFeel;
+    }
 
 
-
+    /**
+     *
+     * Get method block
+     */
+    public String getCityName() {
+        return cityName;
+    }
+    public String getdayOfTheWeek(){
+        return dayOfTheWeek;
+    }
+    public double getTemprature(){
+        return temprature;
+    }
+    public double getHighTemp(){
+        return highTemp;
+    }
+    public double getLowTemp(){
+        return lowTemp;
+    }
+    public double getRealFeel(){
+        return realFeel;
+    }
+    public int getWindSpeed(){
+        return windSpeed;
     }
 }
