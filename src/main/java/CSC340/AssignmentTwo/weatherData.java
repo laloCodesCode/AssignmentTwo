@@ -59,4 +59,31 @@ public class weatherData {
     public int getWindSpeed(){
         return windSpeed;
     }
+
+
+
+    /**
+     * Setter method block
+     */
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+    public void setDayOfTheWeek(String dayOfTheWeek) {
+        this.dayOfTheWeek = dayOfTheWeek;
+    }
+    public void setTemprature(double temprature) {
+        this.temprature = temprature;
+    }
+    public void setHighTemp(double highTemp) {
+        this.highTemp = highTemp;
+    }
+    public void setLowTemp(double lowTemp) {
+        this.lowTemp = lowTemp;
+    }
+    public void setRealFeel(double realFeel) {
+        this.realFeel = realFeel;
+    }
+    public void setWindSpeed(int windSpeed) {
+        this.windSpeed = windSpeed;
+    }
 }
